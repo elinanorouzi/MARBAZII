@@ -115,7 +115,7 @@ while True:
         delay -= 0.001
     #حرکت بدن مار
     for index in range(len(segments) - 1, 0, -1):
-        #بدست اوردن موقغيت قبلي بدن مار
+        #بدست اوردن موقعيت قبلي بدن مار
         x = segments[index - 1].xcor()
         y = segments[index - 1].ycor()
         segments[index].goto(x, y)
